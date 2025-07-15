@@ -7,7 +7,7 @@ export const config = {
         // Production: Update this to your server's API endpoint
         proxyURL: window.location.hostname === 'localhost' 
             ? 'http://localhost:3002/api/explorer/latest-proof' 
-            : '/api/explorer/latest-proof'
+            : '/tesseract-api/api/explorer/latest-proof'
     },
     
     // Visualization settings
