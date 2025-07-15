@@ -1,0 +1,19 @@
+{
+  "name": "succinct-tesseract",
+  "version": "1.0.0",
+  "description": "Interactive 3D visualization of a tesseract morphing to Succinct text with live ZK proof display",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite preview --port 8080"
+  },
+  "dependencies": {
+    "terser": "^5.43.1",
+    "three": "^0.128.0"
+  },
+  "devDependencies": {
+    "vite": "^7.0.4"
+  }
+}

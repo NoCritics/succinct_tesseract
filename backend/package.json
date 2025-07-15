@@ -1,0 +1,17 @@
+{
+  "name": "succinct-tesseract-backend",
+  "version": "1.0.0",
+  "description": "Backend scraper service for Succinct proof data",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js",
+    "dev": "node scraper.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^24.13.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
