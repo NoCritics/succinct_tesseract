@@ -9,7 +9,8 @@ const PORT = process.env.PORT || 3002;
 app.use((req, res, next) => {
     const allowedOrigins = [
         'http://localhost:3000',
-        'http://localhost:3001', 
+        'http://localhost:3001',
+        'http://localhost:4173',  // Vite preview
         'https://succylongtimegames.space',
         'https://www.succylongtimegames.space'
     ];
